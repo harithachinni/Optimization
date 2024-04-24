@@ -4,6 +4,7 @@ import MyList from './virtualization/MyList';
 import MyLazyImage from './lazyloading/MyLazyImage';
 import Post from './memoization/Post';
 import { useState } from 'react';
+import Test from './memoization/Test';
 const data = [
   {
     id: 1,
@@ -84,6 +85,9 @@ function App() {
         <div>
           <button onClick={() => setSignIn(!signIn)}>Toggle SignIn</button>
         </div>
+      </div>
+      <div>
+        <Test />
       </div>
     </>
   );
